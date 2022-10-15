@@ -1,4 +1,5 @@
-![[cicd-concourse-presend.jpg]]
+![cicd-concourse-presend.jpg](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-concourse/cicd-concourse-presend.jpg)
+
 # Giới thiệu
 
 `Concourse` được phát triển năm 2014 bởi hai kỹ sư sau khi họ sử dụng rất nhiều công cụ CI và nhận ra những chức còn thiếu của những công cụ hiện có.
