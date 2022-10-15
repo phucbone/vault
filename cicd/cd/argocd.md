@@ -23,8 +23,7 @@ curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/
 chmod +x /usr/local/bin/argocd
 ```
 
-![[INFO]]
-Đọc thêm: https://argo-cd.readthedocs.io/en/stable/cli_installation/
+>Đọc thêm: https://argo-cd.readthedocs.io/en/stable/cli_installation/
 
 ## Truy cập ArgoCD
 
@@ -80,7 +79,6 @@ data:
 
 ```
 
->[!INFO]
 >Trong đó:
 >`<username> `: là tên user cần tạo mới
 >`<capabilities>` : Sẽ có hai giá trị là `apiKey` hoặc `login`
@@ -132,7 +130,7 @@ argocd account get --account <username>
 argocd account update-password --account <name> --current-password <current-user-password> --new-password <new-user-password>
 ```
 
-> [!INFO] Nếu bạn đang quản lý người dùng với tư cách là người dùng quản trị, thì `<current-user-password>` phải là mật khẩu quản trị hiện tại.
+> Nếu bạn đang quản lý người dùng với tư cách là người dùng quản trị, thì `<current-user-password>` phải là mật khẩu quản trị hiện tại.
 
 Tạo auth token
 
@@ -140,7 +138,7 @@ Tạo auth token
 argocd account generate-token --account <username>
 ```
 
-> [!INFO] Nếu flag `--account` bị bỏ qua thì ArgoCD tạo token cho người dùng hiện tại.
+> Nếu flag `--account` bị bỏ qua thì ArgoCD tạo token cho người dùng hiện tại.
 
 ## Failed logins rate limiting
 
