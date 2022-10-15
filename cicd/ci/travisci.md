@@ -4,7 +4,7 @@
 
 `Travis CI` là công cụ CIAAS (CI as a Service) đầu tiên, ban đầu nó được thiết kế để làm công cụ CI cho các dự án open-source, nhưng về sau vì đón nhận của cộng đồng nên nó được phát triển để có thể làm công cụ CI cho các dự án cá nhân (bản trả phí).
 
-`Travis CI `hỗ trợ cấu hình pipeline sử dụng định dạng `YAML`.
+`Travis CI` hỗ trợ cấu hình pipeline sử dụng định dạng `YAML`.
 
 Hỗ trợ kiểm thử và build code cho hơn 30+ ngôn ngữ.
 
