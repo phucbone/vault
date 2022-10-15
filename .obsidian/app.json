@@ -1,0 +1,7 @@
+{
+  "readableLineLength": false,
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "hashicorp-stack"
+}
