@@ -1,4 +1,4 @@
-![[cicd-concourse-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-concourse/cicd-concourse-presend.jpg)
+![[cicd-concourse-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-concourse/cicd-concourse-presend.jpg?raw=true)
 
 # Giới thiệu
 

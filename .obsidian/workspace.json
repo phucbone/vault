@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cicd/cd/argocd.md",
+                "file": "hashicorp-stack/application/nomad.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cicd/cd/argocd.md",
+                "file": "hashicorp-stack/application/nomad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cicd/cd/argocd.md",
+                "file": "hashicorp-stack/application/nomad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cicd/cd/argocd.md"
+                "file": "hashicorp-stack/application/nomad.md"
               }
             }
           }
@@ -214,15 +214,15 @@
   },
   "active": "c0b0da6d95fa9de5",
   "lastOpenFiles": [
-    "cicd/cd/octopus-deploy.md",
-    "cicd/cd/argocd.md",
-    "hashicorp-stack/application/nomad.md",
     "cicd/ci/travisci.md",
     "cicd/ci/drone.md",
-    "cicd/ci/concourse.md",
     "cicd/ci/circleci.md",
+    "cicd/ci/concourse.md",
     "cicd/cd/spinnaker.md",
     "cicd/cd/micro-focus.md",
-    "cicd/cd/gocd.md"
+    "cicd/cd/armory-spinnaker.md",
+    "cicd/cd/chef.md",
+    "cicd/cd/argocd.md",
+    "hashicorp-stack/application/nomad.md"
   ]
 }

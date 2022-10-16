@@ -1,10 +1,10 @@
-![[ArgoCD-logo.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-logo.png)
+![[ArgoCD-logo.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-logo.png?raw=true)
 
 # Giới thiệu
 
 Đây là một công cụ hỗ trợ công việc tự động cập nhật lại application của chúng ta khi ta thêm hoặc thay đổi config nào đó, nhưng thay vì cập nhật lại toàn bộ như trên thì nó chỉ cập nhật lại những thành phần nào mà có thay đổi config, và tạo thêm thành phần mới nếu ta có thêm file config cho thành phần mới.
 
-![[ArgoCD-Flow.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Flow.png)
+![[ArgoCD-Flow.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Flow.png?raw=true)
 
 ---
 # Cài đặt Argocd
@@ -39,11 +39,11 @@ Mở trình duyệt bất kỳ (Chrome, Edge, ...) và truy cập vào địa ch
 
 Vì chạy `localhost` nên khi báo `unsafe` --> Chọn proceed to localhost (unsafe)
 
-![[argocd-install-unsafe.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/argocd-install-unsafe.png)
+![[argocd-install-unsafe.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/argocd-install-unsafe.png?raw=true)
 
 Tới đây thì sẽ thấy UI như sau
 
-![[ArgoCD-ui.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-ui.png)
+![[ArgoCD-ui.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-ui.png?raw=true)
 
 Với username sẽ là `admin`, và password lấy bằng cách
 
@@ -53,7 +53,7 @@ $ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.p
 
 Sau khi login sau bạn sẽ thấy được giao diện.
 
-![[ArgoCD-access-ui.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-access-ui.png)
+![[ArgoCD-access-ui.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-access-ui.png?raw=true)
 
 ---
 # Local User and Accounts
@@ -313,7 +313,7 @@ argocd admin settings rbac can db-admins get applications 'staging-db-admins/*' 
 
 Chọn icon `Settings` --> `Repositories`.
 
-![[ArgoCD-Repo-conn.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Repo-conn.png)
+![[ArgoCD-Repo-conn.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Repo-conn.png?raw=true)
 
 Có 3 loại kết nối
 
@@ -323,11 +323,11 @@ Type|Mean
 `CONNECT REPO USING HTTPS`|Sử dụng HTTPS để kết nối Repository
 `CONNECT REPO USING GITHUB APP`|Sử dụng GITHUB APP để kết nối Repository
 
-![[ArgoCD-repo-conn-2.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-repo-conn-2.png)
+![[ArgoCD-repo-conn-2.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-repo-conn-2.png?raw=true)
 
 Ví dụ chọn `CONNECT REPO USING HTTPS` --> Điền thông tin vào --> `CONNECT`
 
-![[ArgoCD-repo-conn-3.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-repo-conn-3.png)
+![[ArgoCD-repo-conn-3.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-repo-conn-3.png?raw=true)
 
 ---
 # Tạo APP
@@ -336,7 +336,7 @@ Ví dụ chọn `CONNECT REPO USING HTTPS` --> Điền thông tin vào --> `CONN
 
 Nhấn vào nút `+ NEW APP` ở trên UI.
 
-![[ArgoCD-create-app-1.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-1.png)
+![[ArgoCD-create-app-1.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-1.png?raw=true)
 
 form GENARAL
 
@@ -346,7 +346,7 @@ Application Name|nodejs-microservice|Tên APP
 Project|default|Chọn Project
 SYNC POLICY|Automatic|Manual (khi push code lên Git, phải vào bấm bằng tay để APP cập nhật lại theo template config mới) hoặc Automatic (tự động)
 
-![[ArgoCD-create-app-2.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-2.png)
+![[ArgoCD-create-app-2.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-2.png?raw=true)
 
 form SOURCE
 
@@ -356,7 +356,7 @@ Repository URL|https://github.com/hoalongnatsu/microservices.git|Đường dẫn
 Revision|HEAD|Chọn Branch của Git
 Path|k8s|Tên folder chứa file kubernetes config của APP, nếu nằm ở root thì điền vào đường dẫn là /
 
-![[ArgoCD-create-app-3.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-3.png)
+![[ArgoCD-create-app-3.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-3.png?raw=true)
 
 form DESTINATION
 
@@ -365,11 +365,11 @@ Parameter|Value|Note
 Cluster URL|https://kubernetes.default.svc|Đường dẫn tới K8S Cluster
 Namespace|default|Chọn Namespace để triển khai
 
-![[ArgoCD-create-app-4.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-4.png)
+![[ArgoCD-create-app-4.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-4.png?raw=true)
 
 Sau khi điền sau hết --> Chọn `Create`, lúc này `ArgoCD` sẽ tạo một APP và tiến hành deploy APP lên trên K8S Cluster.
 
-![[ArgoCD-create-app-5.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-5.png)
+![[ArgoCD-create-app-5.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-create-app-5.png?raw=true)
 
 ---
 # Xóa APP
@@ -378,4 +378,4 @@ Sau khi điền sau hết --> Chọn `Create`, lúc này `ArgoCD` sẽ tạo m�
 
 Ở giao diện quản lý APP --> chọn `icon X` hoặc chọn APP cần xóa --> `Delete`
 
-![[ArgoCD-Del.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Del.png)
+![[ArgoCD-Del.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-Del.png?raw=true)

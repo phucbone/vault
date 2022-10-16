@@ -1,4 +1,4 @@
-![[hashicorp-nomad.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-hashicorp-stack/imgs-hashicorp-nomad/hashicorp-nomad.jpg)
+![[hashicorp-nomad.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-hashicorp-stack/imgs-hashicorp-nomad/hashicorp-nomad.jpg?raw=true)
 
 # Giới thiệu
 

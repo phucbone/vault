@@ -1,4 +1,4 @@
-![[cicd-drone-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-drone/cicd-drone-presend.jpg)
+![[cicd-drone-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-drone/cicd-drone-presend.jpg?raw=true)
 
 # Giới thiệu
 
