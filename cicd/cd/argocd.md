@@ -1,4 +1,4 @@
-![ArgoCD-logo.png](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-logo.png)
+![[ArgoCD-logo.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-cd/imgs-argocd/ArgoCD-logo.png)
 
 # Giới thiệu
 

@@ -1,4 +1,4 @@
-![travisci-presend.jpg](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-travisci/travisci-presend.jpg)
+![[travisci-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-travisci/travisci-presend.jpg)
 
 # Giới thiệu
 
