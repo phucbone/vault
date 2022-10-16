@@ -1,16 +1,15 @@
-![[travisci-presend.jpg]]
+![[cicd-circleci-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-cicd/imgs-ci/imgs-circleci/cicd-circleci-presend.jpg?raw=true)
+
 # Giới thiệu
 
-`Travis CI` là công cụ CIAAS (CI as a Service) đầu tiên, ban đầu nó được thiết kế để làm công cụ CI cho các dự án open-source, nhưng về sau vì đón nhận của cộng đồng nên nó được phát triển để có thể làm công cụ CI cho các dự án cá nhân (bản trả phí).
+`CircleCI` là một công cụ `Continuous Integration` được thiết kế với tốc độ cao và có khả năng mở rộng
 
-`Travis CI `hỗ trợ cấu hình pipeline sử dụng định dạng `YAML`.
+Cấu hình CI được viết dưới dạng `YAML` file, giúp việc theo dõi các thay đổi cấu hình CI dễ dàng hơn. 
 
-Hỗ trợ kiểm thử và build code cho hơn 30+ ngôn ngữ.
+Hiện nay `CircleCI` là một trong những công cụ `Continuous Integration` được đánh giá tốt.
 
 Ưu điểm|Nhược điểm|Chi phí
 ---|---|---
-Miễn phí 100% khi dùng cho dự án open-source (public repository)|Thiếu tính quản trị và bảo mật, ví dụ, thêm secrets vào khá khó khăn|Sử dụngcho dự án open-source thì miễn phí, còn đối với Travis Pro thì chi phí sẽ tính theo tháng.
-Khởi tạo và cấu hình CI nhanh chóng chỉ trong vài phút|Thiếu nhiều tính năng dành cho doanh nghiệp so với các công cụ CI khác|Nếu bạn đăng ký Travis Pro thì sẽ được miễn phí 30 ngày đầu tiên, sau đó chi phí sẽ là $69 một tháng cho 1 concurrent jobs, nếu 2 concurrent jobs thì là $129 một tháng.
-Giao diện đẹp và dễ sử dụng|
-Hỗ trợ 30+ ngôn ngữ|
-Có hỗ trợ database (rất tiện)|
+Giao diện người dùng đẹp, môi trường xây dựng linh hoạt, dễ sử dụng|Rủi ro lớn nhất khi chọn `CircleCI` là hay bị downtime ngắn và đôi lúc rất chậm ở mặt trải nghiệm, nếu một Job của ta cần thời gian chạy rất lâu mà nó bị downtime một phát thi ta phải chạy lại từ đầu, rất tốn thời gian|Nếu quy mô của chúng ta nhỏ thì có thể chọn gói Free, nếu quy mô khá lớn một chút thì ta có thể chọn gói Performance
+Hỗ trợ phân quyền theo kiểu role-based access control (RBAC)|Có rất nhiều hạn chế với Docker|Nếu phần mền của ta yêu cầu phải cập nhật liên tục thì `CircleCI` phải chạy liên tục, nếu `CircleCI` thực thi càng nhiều thì sẽ càng tốn phí, giống với `AWS CodeBuild` (the more resources you use, the more you pay), nên nó không thích hợp với các dự án quy mô lớn và cần cập nhật liên tục
+Hỗ trợ nhiều môi trường build khác nhau|Đội lúc một Job mất rất nhiều thời gian để được thực thi|
