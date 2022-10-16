@@ -11,3 +11,10 @@
 Ví dụ:
 
 Trong `Kubernetes` thì `Secret` của nó chỉ lưu được dữ liệu tối đa là 1MiB, nếu ta cần `Secret` mà lớn hơn 1MiB thì bó tay, do đó ta cần phải sử dụng các công cụ khác, `Vault` là lựa chọn khá tốt trong trường hợp này.
+
+# Cài đặt
+
+```bash
+helm repo add hashicorp https://helm.releases.hashicorp.com
+helm search repo hashicorp/vault
+```
