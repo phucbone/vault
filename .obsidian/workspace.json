@@ -214,15 +214,15 @@
   },
   "active": "c0b0da6d95fa9de5",
   "lastOpenFiles": [
-    "cicd/ci/travisci.md",
-    "cicd/ci/drone.md",
-    "cicd/ci/circleci.md",
     "cicd/ci/concourse.md",
-    "cicd/cd/spinnaker.md",
-    "cicd/cd/micro-focus.md",
+    "hashicorp-stack/application/nomad.md",
     "cicd/cd/armory-spinnaker.md",
-    "cicd/cd/chef.md",
     "cicd/cd/argocd.md",
-    "hashicorp-stack/application/nomad.md"
+    "cicd/cd/digital.ai-deploy.md",
+    "cicd/cd/gocd.md",
+    "cicd/cd/ibm-cloud-devops.md",
+    "cicd/cd/micro-focus.md",
+    "cicd/cd/spinnaker.md",
+    "cicd/cd/octopus-deploy.md"
   ]
 }
