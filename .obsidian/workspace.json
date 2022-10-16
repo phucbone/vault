@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hashicorp-stack/HashiCorp Stack.md",
+                "file": "hashicorp-stack/Infastructure/Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hashicorp-stack/HashiCorp Stack.md",
+                "file": "hashicorp-stack/Infastructure/Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hashicorp-stack/HashiCorp Stack.md",
+                "file": "hashicorp-stack/Infastructure/Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hashicorp-stack/HashiCorp Stack.md"
+                "file": "hashicorp-stack/Infastructure/Infrastructure.md"
               }
             }
           }
@@ -141,15 +141,15 @@
   },
   "active": "bfacc9db1f31a3ba",
   "lastOpenFiles": [
+    "hashicorp-stack/Application/nomad.md",
+    "hashicorp-stack/Application/Application.md",
+    "hashicorp-stack/HashiCorp Stack.md",
     "hashicorp-stack/Infastructure/terraform.md",
     "hashicorp-stack/Infastructure/packer.md",
     "hashicorp-stack/Infastructure/Infrastructure.md",
-    "hashicorp-stack/HashiCorp Stack.md",
     "hashicorp-stack/Security/Security.md",
     "hashicorp-stack/Network/Network.md",
-    "hashicorp-stack/Application/Application.md",
     "hashicorp-stack/Security/vault.md",
-    "hashicorp-stack/Security/boundary.md",
-    "cicd/ci/aws-codebuild.md"
+    "hashicorp-stack/Security/boundary.md"
   ]
 }
