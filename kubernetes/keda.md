@@ -1,4 +1,4 @@
-![[keda-presend.png]]
+![[keda-presend.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-kubernetes/imgs-keda/keda-presend.png)
 
 ---
 # Giới thiệu
@@ -25,7 +25,7 @@ Với `KEDA` ta có thể scale một ứng dụng dựa vào event-driven (Ví 
 
 Để hiểu rõ hơn về `KEDA` thì ta sẽ coi sơ qua kiến trúc high-level của nó
 
-![[keda-flow.png]]
+![[keda-flow.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-kubernetes/imgs-keda/keda-flow.png)
 
 KEDA bao gồm các thành phần cơ bản
 
@@ -40,7 +40,7 @@ Part|Description
 
 `KEDA` hỗ trợ rất nhiều event sources, hỗ trợ với cả các resource của `AWS` và `AZURE`
 
-![[keda-event-sources.png]]
+![[keda-event-sources.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-kubernetes/imgs-keda/keda-event-sources.png)
 
 >Đọc thêm: https://keda.sh/docs/2.6/concepts/#event-sources-and-scalers
 
