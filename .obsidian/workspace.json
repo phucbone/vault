@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1450a1fa2259744c",
+        "id": "02ef06bb157a0302",
         "type": "tabs",
         "children": [
           {
-            "id": "8038c4125bc37ada",
+            "id": "3610b0ea9dd26419",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hashicorp-stack/Security/vault.md",
+                "file": "kubernetes/keda.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hashicorp-stack/Security/vault.md",
+                "file": "kubernetes/keda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hashicorp-stack/Security/vault.md",
+                "file": "kubernetes/keda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hashicorp-stack/Security/vault.md"
+                "file": "kubernetes/keda.md"
               }
             }
           }
@@ -139,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "8038c4125bc37ada",
+  "active": "3610b0ea9dd26419",
   "lastOpenFiles": [
+    "kubernetes/hpa.md",
+    "kubernetes/keda.md",
+    "imgs/imgs-kubernetes/imgs-keda/keda-event-sources.png",
+    "imgs/imgs-kubernetes/imgs-keda/keda-presend.png",
+    "imgs/imgs-kubernetes/imgs-keda/keda-flow.png",
+    "container/podman.md",
+    "imgs/imgs-container/Untitled.md",
+    "hashicorp-stack/Security/vault.md",
     "hashicorp-stack/Application/Application.md",
-    "hashicorp-stack/Application/waypoint.md",
-    "hashicorp-stack/Application/vargrant.md",
-    "hashicorp-stack/Application/nomad.md",
-    "hashicorp-stack/HashiCorp Stack.md",
-    "cicd/CICD.md",
-    "cicd/ci/Continuous Integration.md",
-    "hashicorp-stack/Infastructure/terraform.md",
-    "hashicorp-stack/Infastructure/packer.md",
-    "hashicorp-stack/Infastructure/Infrastructure.md"
+    "hashicorp-stack/Application/waypoint.md"
   ]
 }
