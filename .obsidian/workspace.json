@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34bfdd8e9566a8e7",
+        "id": "fac4279bbd6055dd",
         "type": "tabs",
         "children": [
           {
-            "id": "ba5e657ebdbd8301",
+            "id": "9968485cc72ba1e8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -131,8 +131,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ba5e657ebdbd8301",
+  "active": "9968485cc72ba1e8",
   "lastOpenFiles": [
+    "database/PostgreSQL/PostgreSQL.md",
     "misc/Misc.md",
     "kubernetes/Debug/Debug.md",
     "kubernetes/Deployment/Deployment.md",
@@ -141,7 +142,6 @@
     "kubernetes/Kubernetes.md",
     "kubernetes/Scaling/Scaling.md",
     "linux-commands/Linux Commands.md",
-    "database/Database.md",
-    "kubernetes/Scaling/keda.md"
+    "database/Database.md"
   ]
 }
