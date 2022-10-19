@@ -1,4 +1,4 @@
-![[docker-presend.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-hashicorp-stack/imgs-container/imgs-docker/docker-presend.png?raw=true)
+![[docker-presend.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-docker/docker-presend.png?raw=true)
 
 ---
 # Giới thiệu
@@ -27,7 +27,7 @@ No | Benefit
 ---
 # Các khái niệm cơ bản
 
-![[docker-basic.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-hashicorp-stack/imgs-container/imgs-docker/docker-basic.png?raw=true))
+![[docker-basic.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-docker/docker-basic.png?raw=true))
 
 No | Benefit
 ---|---
