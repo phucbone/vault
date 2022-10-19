@@ -1,4 +1,4 @@
-![[postgresql-presend.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-database/imgs-posgressql/postgresql-presend.png?raw=true)
+![[postgresql-presend.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-database/imgs-posgresql/postgresql-presend.png?raw=true)
 
 ---
 # Giới thiệu
@@ -93,7 +93,7 @@ Tuy nhiên, hệ quản trị cơ sở dữ liệu `PostgreSQL` lại không t
 
 ## PostgresSQL vs MySQL
 
-![[postgresql-vs-mysql.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-database/imgs-posgressql/postgresql-vs-mysql.png?raw=true)
+![[postgresql-vs-mysql.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-database/imgs-posgresql/postgresql-vs-mysql.png?raw=true)
 
 Đặc điểm|PostgresSQL|MySQL
 ---|---|---
