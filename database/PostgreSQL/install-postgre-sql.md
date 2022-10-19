@@ -1,6 +1,3 @@
-# PostgreSQL
-PostgreSQL or also known as Postgres, is a free and open-source relational database management system. PostgreSQL features transactions with Atomicity, Consistency, Isolation, Durability (ACID) properties automatically updatable views, materialized views, triggers, foreign keys, and stored procedures. It is designed to handle a range of workloads, from single machines to data warehouses or web services with many concurrent users.
-
 ## Install PostgreSQL 12 on Ubuntu 20.04 LTS
 ```bash
 sudo apt update
@@ -105,3 +102,4 @@ To change the owner of an existing database later, you can use the following com
 postgres=# alter database dbname owner to myuser;
 ALTER DATABASE
 ```
+
