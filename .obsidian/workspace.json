@@ -11,9 +11,11 @@
             "id": "1947d4a66a3016d3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg"
+                "file": "misc/gitops.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
+                "file": "misc/gitops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
+                "file": "misc/gitops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg"
+                "file": "misc/gitops.md"
               }
             }
           }
@@ -139,15 +141,15 @@
   },
   "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
+    "cicd/cd/argocd.md",
     "misc/gitops.md",
-    "container/docker/docker.md",
     "misc/Misc.md",
+    "cicd/cd/Continuous Deployment.md",
+    "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
+    "container/docker/docker.md",
     "misc/http-status-codes.md",
     "kubernetes/Scaling/keda.md",
-    "cicd/cd/Continuous Deployment.md",
-    "cicd/cd/argocd.md",
     "container/Container.md",
-    "container/podman/podman.md",
-    "hashicorp-stack/Application/nomad.md"
+    "container/podman/podman.md"
   ]
 }

@@ -6,6 +6,6 @@ Nếu muốn thay đổi cấu hình hệ thống --> phải thực hiện việ
 
 Và tiếp theo các công cụ `GitOps` sẽ đồng bộ cấu hình vừa thay đổi trong source code lên hệ thống thực tế.
 
-Một công cụ `GitOps` phổ biến là [[ArgoCD]]([https://github.com/phucbone/vault/blob/master/cicd/cd/argocd.md](https://github.com/phucbone/vault/blob/master/cicd/cd/argocd.md)).
+Một công cụ `GitOps` phổ biến là [[argocd]](https://github.com/phucbone/vault/blob/master/cicd/cd/argocd.md).
 
 ![[gitops-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-misc/imgs-gitops/gitops-presend.jpg?raw=true)
