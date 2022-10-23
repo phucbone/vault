@@ -1,4 +1,4 @@
-![[podman-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-podman/podman-presend.jpg)
+![[podman-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-podman/podman-presend.jpg?raw=true)
 
 # Giới thiệu
 

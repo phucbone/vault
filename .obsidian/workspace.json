@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fac4279bbd6055dd",
+        "id": "ad2c31c170b4564f",
         "type": "tabs",
         "children": [
           {
-            "id": "9968485cc72ba1e8",
+            "id": "1947d4a66a3016d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "database/PostgreSQL/PostgreSQL.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "database/PostgreSQL/PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "database/PostgreSQL/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "database/PostgreSQL/PostgreSQL.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -139,17 +131,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9968485cc72ba1e8",
+  "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
-    "database/PostgreSQL/PostgreSQL.md",
+    "kubernetes/Scaling/keda.md",
+    "misc/gitops.md",
     "misc/Misc.md",
-    "kubernetes/Debug/Debug.md",
-    "kubernetes/Deployment/Deployment.md",
-    "kubernetes/Deployment/deployment-strategies.md",
-    "kubernetes/Ingress/Ingress.md",
-    "kubernetes/Kubernetes.md",
-    "kubernetes/Scaling/Scaling.md",
-    "linux-commands/Linux Commands.md",
-    "database/Database.md"
+    "cicd/cd/Continuous Deployment.md",
+    "cicd/cd/argocd.md",
+    "container/Container.md",
+    "container/podman/podman.md",
+    "hashicorp-stack/Application/nomad.md",
+    "hashicorp-stack/Application/Application.md",
+    "hashicorp-stack/HashiCorp Stack.md"
   ]
 }
