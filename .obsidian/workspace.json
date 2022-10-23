@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/gitops.md",
+                "file": "kubernetes/Scaling/keda.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/gitops.md",
+                "file": "kubernetes/Scaling/keda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/gitops.md",
+                "file": "kubernetes/Scaling/keda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/gitops.md"
+                "file": "kubernetes/Scaling/keda.md"
               }
             }
           }
@@ -141,15 +141,15 @@
   },
   "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
-    "cicd/cd/argocd.md",
+    "kubernetes/Scaling/Scaling.md",
+    "kubernetes/Kubernetes.md",
     "misc/gitops.md",
+    "cicd/cd/argocd.md",
     "misc/Misc.md",
     "cicd/cd/Continuous Deployment.md",
     "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
     "container/docker/docker.md",
     "misc/http-status-codes.md",
-    "kubernetes/Scaling/keda.md",
-    "container/Container.md",
-    "container/podman/podman.md"
+    "kubernetes/Scaling/keda.md"
   ]
 }

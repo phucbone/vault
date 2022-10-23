@@ -322,3 +322,53 @@ kubectl get deploy,pod,hpa
 ```bash
 kubectl get deploy,pod,hpa
 ```
+
+---
+# Testing: Kafka
+
+```yaml
+# kubectl create secret generic keda-kafka-secrets \
+# --from-literal=sasl=plaintext \
+# --from-literal=username=devopsvn \
+# --from-literal=password=devopsvn
+
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: keda-trigger-auth-kafka-credential
+spec:
+  secretTargetRef:
+    - name: keda-kafka-secrets
+      parameter: sasl
+      key: sasl
+    - name: keda-kafka-secrets
+      parameter: username
+      key: username
+    - name: keda-kafka-secrets
+      parameter: password
+      key: password
+
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: consumer-topic-message-scale
+spec:
+  minReplicaCount: 0
+  maxReplicaCount: 5
+  scaleTargetRef:
+    name: consumer-name
+  pollingInterval: 30
+  triggers:
+    - type: kafka
+      metadata:
+        bootstrapServers: kafka:9092
+        consumerGroup: consumer-group-name
+        topic: kafka-topic-name
+        lagThreshold: "100" # number of messages
+        offsetResetPolicy: latest
+        allowIdleConsumers: "false"
+        scaleToZeroOnInvalidOffset: "false"
+      authenticationRef:
+        name: keda-trigger-auth-kafka-credential
+```
