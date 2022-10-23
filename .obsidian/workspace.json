@@ -11,8 +11,10 @@
             "id": "1947d4a66a3016d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg"
+              }
             }
           }
         ],
@@ -133,15 +139,15 @@
   },
   "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
-    "kubernetes/Scaling/keda.md",
     "misc/gitops.md",
+    "container/docker/docker.md",
     "misc/Misc.md",
+    "misc/http-status-codes.md",
+    "kubernetes/Scaling/keda.md",
     "cicd/cd/Continuous Deployment.md",
     "cicd/cd/argocd.md",
     "container/Container.md",
     "container/podman/podman.md",
-    "hashicorp-stack/Application/nomad.md",
-    "hashicorp-stack/Application/Application.md",
-    "hashicorp-stack/HashiCorp Stack.md"
+    "hashicorp-stack/Application/nomad.md"
   ]
 }

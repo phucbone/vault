@@ -8,4 +8,4 @@ Và tiếp theo các công cụ `GitOps` sẽ đồng bộ cấu hình vừa th
 
 Một công cụ `GitOps` phổ biến là [[ArgoCD]]([https://github.com/phucbone/vault/blob/master/cicd/cd/argocd.md](https://github.com/phucbone/vault/blob/master/cicd/cd/argocd.md)).
 
-![[gitops-presend.jpg]](https://github.com/phucbone/vault/tree/master/imgs/imgs-misc/imgs-gitops/gitops-presend.jpg?raw=true)
+![[gitops-presend.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-misc/imgs-gitops/gitops-presend.jpg?raw=true)
