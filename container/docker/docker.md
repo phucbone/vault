@@ -12,6 +12,16 @@
 Giả sử có một project muốn gửi cho người khác ( ví dụ người mà không biết quá nhiều về lập trình) để chạy thử trên máy họ, người ta không cần biết bạn cài những công nghệ nào vào project để chạy, vì ta đã gói gọn các công nghệ trong `Docker` rồi, việc ta cần làm là đưa cho họ vài câu lệnh để chạy là xong, quả là tiện.
 
 ---
+# Kiến trúc
+
+Bao gồm 3 thành phần chính:  
++ `Client`: bao gồm các công cụ để ta tương tác với Docker Host như CLI, API hoặc Docker Desktop.  
++ `Docker` Host: bao gồm Docker Daemon là bộ não của Docker.  
++ `Registry`: nơi chứa Container Image.
+
+![[docker-architecture.jpg]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-docker/docker-architecture.jpg?raw=true)
+
+---
 # Lợi ích
 
 No | Benefit
@@ -27,7 +37,7 @@ No | Benefit
 ---
 # Các khái niệm cơ bản
 
-![[docker-basic.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-docker/docker-basic.png?raw=true))
+![[docker-basic.png]](https://github.com/phucbone/vault/blob/master/imgs/imgs-container/imgs-docker/docker-basic.png?raw=true)
 
 No | Benefit
 ---|---
