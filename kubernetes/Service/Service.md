@@ -30,14 +30,14 @@ Ví dụ Service
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service
+  name: my-service                  # Tên Service
 spec:
-  selector:
+  selector:                         # Match với labels của Pod
     app.kubernetes.io/name: MyApp
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 9376
+    - protocol: TCP                 # Giao thức
+      port: 80                      # Port của Service
+      targetPort: 9376              # Port target vào Pod
 ```
 
 Với khai báo trên, ta đã định nghĩa một service có tên my-service, và nó sẽ chọn tới Port TCP 9376 trên tất cả những Pod nào trong cùng Namespace của service mà có nhãn là "app.kubernetes.io/name=MyApp".
