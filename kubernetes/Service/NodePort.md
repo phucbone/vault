@@ -1,4 +1,4 @@
-# Gioi thieu
+# Giới thiệu
 
 `NodePort` là một cách đơn giản nhất để có thể truy cập đến `Service` từ bên ngoài `Kubernetes`.
 
@@ -7,6 +7,12 @@
 `NodePort` được giới hạn sử dụng trong dải port `3000-32767`.
 
 Có thể khai báo nodePort trong manifest yaml hoặc `Kubernetes` sẽ tự động generate nếu không set nó.
+
+# Hạn chế
+
+-   Service được expose hoàn toàn ra bên ngoài
+-   Phải sử dụng qua port NodePort (thay vì sử dụng port http/https cho các ứng dụng web thì phải thêm cái đuôi NodePort vào sau domainname --> Nhìn nó kém chuyên nghiệp thật sự
+-   Số lượng Port sử dụng cho NodePort hạn chế (mặc định range NodePort từ 30000-32767)
 
 # Demo
 

@@ -1,10 +1,22 @@
-# Ingress là gì?
 
-`Ingress` hiển thị các tuyến HTTP và HTTPS từ bên ngoài cluster đến các services trong cluster.
 
-Định tuyến lưu lượng được kiểm soát bởi các quy tắc được xác định trên tài nguyên `Ingress`.
+# Giới thiệu
 
-Dưới đây là một ví dụ đơn giản trong đó `Ingress` gửi tất cả lưu lượng truy cập của mình đến một Service:
+`Ingress` dùng để khắc phục các hạn chế của `NodePort`
+
+- Các service ứng dụng sẽ được expose dưới dạng `ClusterIP` và sau đó được expose ra bên ngoài qua `Ingress` --> Service thực sự trong suốt với người dùng. Người dùng chỉ thực sự kết nối tới `Ingress Controller`
+- Có thể dùng thêm external LoadBalancer bên ngoài để trỏ tới IngressController --> Có thể sử dụng port http/https để kết nối tới domain tương ứng của service thay vì phải chỉ định thêm NodePort, nhìn nó chuyên nghiệp hơn hẳn
+- Không bị hạn chế bởi số lượng Port mà NodePort có thể cung cấp.
+
+`Ingress` mở và phân luồng các kết nối HTTP và HTTPS từ bên ngoài `Kubernetes Cluster` vào các `Services` bên trong `Cluster`.
+
+Việc phân luồng dữ liệu này được quản lý bởi các "rule" được định nghĩa ở các tài nguyên `Ingress` trên `Kubernetes`.
+
+Việc thực thi phân luồng dữ liệu được thực hiện bởi `Ingress Controller`, là một `opensource` cài đặt trên `Kubernetes`.
+
+Nhiệm vụ của `Ingress Controller` là nạp các thông tin của các I`ngress Resource` để thực hiện phân luồng.
+
+Dưới đây là một ví dụ đơn giản trong đó `Ingress` gửi tất cả lưu lượng truy cập của mình đến một `Service`
 
 ```mermaid
 flowchart LR
@@ -28,6 +40,48 @@ Bộ điều khiển `Ingress` chịu trách nhiệm thực hiện `Ingress`, th
 `Ingress` không hiển thị các cổng hoặc giao thức tùy ý. 
 
 Việc hiển thị các services không phải HTTP và HTTPS với internet thường sử dụng 1 trong 2 loại service: `Service.Type=NodePort` hoặc `Service.Type=LoadBalancer`
+
+---
+# Cơ chế hoạt động
+
+Cơ chế hoạt động của `Ingress` gồm 2 thành phần chính:
+
+- `Ingress Controller`: Là thành phần điều khiển chính làm nhiệm vụ điều hướng các request tới các service bên trong `Kubernetes`. Thường thì Ingress Controller được cài đặt trên `Kubernetes` và được expose ra ngoài dưới dạng `NodePort`.
+- `Ingress Rule`: Là một tài nguyên trên `Kubernetes`. Nó chứa nội dung khai báo rule để điều hướng từ một request tới một service cụ thể trên trong `Kubernetes`.
+
+**NOTE**: Có nhiều `Ingress Controller` từ các nhà phát triển khác nhau có thể lựa chọn để cài đặt. Ngoài ra `Kubernetes` cũng hỗ trợ cài đặt nhiều `Ingress Controller` tùy nhu cầu sử dụng.
+
+---
+# Cấu trúc
+
+`Ingress` là một tài nguyên ở mức `Namespace` trên `Kubernetes`.
+
+Và giống như các tài nguyên khác như `Pod`, `Deployment` hay `Service`, ta có thể định nghĩa nó bằng cách sử dụng file manifest dạng `yaml`.
+
+Ví dụ
+
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: minimal-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx-example
+  rules:
+  - http:
+      paths:
+      - path: /testpath
+        pathType: Prefix
+        backend:
+          service:
+            name: test
+            port:
+              number: 80
+```
+
 
 ## Ingress Controller
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/Service/Service.md",
+                "file": "kubernetes/Ingress/Kubernetes Ingress.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/Service/Service.md",
+                "file": "kubernetes/Ingress/Kubernetes Ingress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/Service/Service.md",
+                "file": "kubernetes/Ingress/Kubernetes Ingress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/Service/Service.md"
+                "file": "kubernetes/Ingress/Kubernetes Ingress.md"
               }
             }
           },
@@ -149,11 +149,11 @@
   },
   "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
+    "kubernetes/Service/NodePort.md",
+    "kubernetes/Service/Service.md",
     "kubernetes/Service/LoadBalancer.md",
     "kubernetes/Service/ClusterIP.md",
     "kubernetes/Service/ExternalName.md",
-    "kubernetes/Service/NodePort.md",
-    "kubernetes/Service/Service.md",
     "kubernetes/Service/Kubernetes Service.md",
     "container/docker/docker.md",
     "kubernetes/Scaling/keda.md",
