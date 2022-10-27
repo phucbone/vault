@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container/docker/docker.md",
+                "file": "kubernetes/Service/ClusterIP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container/docker/docker.md",
+                "file": "kubernetes/Service/ClusterIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container/docker/docker.md",
+                "file": "kubernetes/Service/ClusterIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container/docker/docker.md"
+                "file": "kubernetes/Service/ClusterIP.md"
               }
+            }
+          },
+          {
+            "id": "3c7129a11c9ee6c8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -139,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1947d4a66a3016d3",
+  "active": "3c7129a11c9ee6c8",
   "lastOpenFiles": [
+    "kubernetes/Service/ExternalName.md",
+    "kubernetes/Service/LoadBalancer.md",
+    "kubernetes/Service/NodePort.md",
+    "kubernetes/Service/Service.md",
+    "kubernetes/Service/Kubernetes Service.md",
+    "container/docker/docker.md",
     "kubernetes/Scaling/keda.md",
     "kubernetes/Scaling/Scaling.md",
     "kubernetes/Kubernetes.md",
-    "misc/gitops.md",
-    "cicd/cd/argocd.md",
-    "misc/Misc.md",
-    "cicd/cd/Continuous Deployment.md",
-    "imgs/imgs-misc/imgs-gitops/gitops-presend.jpg",
-    "container/docker/docker.md",
-    "misc/http-status-codes.md"
+    "misc/gitops.md"
   ]
 }
