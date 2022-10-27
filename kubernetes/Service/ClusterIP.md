@@ -14,7 +14,7 @@ Muốn `Expose` những `Service` này ra bên ngoài `Kubernetes` thì có th�
 kubectl create namespace demo
 ```
 
-Tạo `Pod` đơn giản với manifest file `demo-pod.yaml`
+Tạo demo đơn giản với manifest file `demo-clusterip.yaml`
 
 ```yaml
 apiVersion: v1
@@ -32,11 +32,8 @@ spec:
     ports:
     - containerPort:  80        # Port của Container
       name:  http               # Tên của Port Container
-```
 
-Khai báo một `Service` dạng `ClusterIP` với manifest file `service-clusterip.yaml`
-
-```yaml
+---
 apiVersion: v1
 kind: Service
 metadata:
@@ -53,8 +50,7 @@ spec:
 ```
 
 ```bash
-kubectl apply -f demo-pod.yaml
-kubectl apply -f service-clusterip.yaml
+kubectl apply -f demo-clusterip.yaml
 ```
 
 Lúc này `Service` có tên `frontend-service` đã được sinh ra có thông tin như sau
