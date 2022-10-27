@@ -73,7 +73,9 @@ Ta sẽ đứng từ một `Master Node` để kết nối tới `Service`:
 [k8s@demo]$ kubectl -n demo get service
 NAME               TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
 frontend-service   ClusterIP      10.233.2.148    <none>        80/TCP           6m56s
+```
 
+```bash
 [k8s@demo]$ curl 10.233.2.148:80
 <!DOCTYPE html>
 <html>
