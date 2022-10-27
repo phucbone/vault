@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubernetes/Service/ClusterIP.md",
+                "file": "kubernetes/Service/Service.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kubernetes/Service/ClusterIP.md",
+                "file": "kubernetes/Service/Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kubernetes/Service/ClusterIP.md",
+                "file": "kubernetes/Service/Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kubernetes/Service/ClusterIP.md"
+                "file": "kubernetes/Service/Service.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3c7129a11c9ee6c8",
+  "active": "1947d4a66a3016d3",
   "lastOpenFiles": [
-    "kubernetes/Service/ExternalName.md",
     "kubernetes/Service/LoadBalancer.md",
+    "kubernetes/Service/ClusterIP.md",
+    "kubernetes/Service/ExternalName.md",
     "kubernetes/Service/NodePort.md",
     "kubernetes/Service/Service.md",
     "kubernetes/Service/Kubernetes Service.md",
     "container/docker/docker.md",
     "kubernetes/Scaling/keda.md",
     "kubernetes/Scaling/Scaling.md",
-    "kubernetes/Kubernetes.md",
-    "misc/gitops.md"
+    "kubernetes/Kubernetes.md"
   ]
 }

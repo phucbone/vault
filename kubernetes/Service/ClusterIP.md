@@ -10,10 +10,6 @@ Muốn `Expose` những `Service` này ra bên ngoài `Kubernetes` thì có th�
 
 # Demo
 
-```bash
-kubectl create namespace demo
-```
-
 Tạo demo đơn giản với manifest file `demo-clusterip.yaml`
 
 ```yaml
@@ -37,19 +33,20 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: frontend-service   # Tên Service
-  namespace: demo          # Namespace triển khai
+  name: frontend-service        # Tên Service
+  namespace: demo               # Namespace triển khai
 spec: 
-  type: ClusterIP          # Loại Service: ClusterIP
-  selector:                # Khai báo rule để lọc các Pod mà Service sẽ forward connection tới
+  type: ClusterIP               # Loại Service: ClusterIP
+  selector:                     # Khai báo rule để lọc các Pod mà Service sẽ forward connection tới
     app: my-app
     apptype: frontend
   ports:
-    - targetPort: 80       # Port của Pod, Service sẽ chuyển tiếp kết nối vào đây
-      port: 80             # Port được mở của Service. Client sẽ kết nối với Service qua port này
+    - targetPort: 80            # Port của Pod, Service sẽ chuyển tiếp kết nối vào đây
+      port: 80                  # Port được mở của Service. Client sẽ kết nối với Service qua port này
 ```
 
 ```bash
+kubectl create namespace demo
 kubectl apply -f demo-clusterip.yaml
 ```
 

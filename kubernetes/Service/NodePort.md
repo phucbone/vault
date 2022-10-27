@@ -8,6 +8,8 @@
 
 Có thể khai báo nodePort trong manifest yaml hoặc `Kubernetes` sẽ tự động generate nếu không set nó.
 
+# Demo
+
 Tạo demo `NodePort` từ manifest file `demo-nodeport.yaml`
 
 ```yaml
@@ -35,7 +37,7 @@ metadata:
   namespace: demo          # Namespace triển khai
 spec:   
   type: NodePort           # Loại service: NodePort
-  selector:                # Khai báo rule để lọc các Pod mà Service sẽ forward connection tới
+  selector:                # Match với labels của Pod
     app: my-app
     apptype: frontend
   ports: 
@@ -53,11 +55,10 @@ Kiểm tra
 ```bash
 [k8s@demo]$ kubectl -n demo get svc -owide
 NAME               TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE   SELECTOR
-frontend-service   ClusterIP      10.233.2.148    <none>        80/TCP           14m   app=my-app,apptype=frontend
 service-nodeport   NodePort       10.233.51.68    <none>        80:30888/TCP     5s    app=my-app,apptype=frontend
 ```
 
-Lúc này có thể truy cập tới Service từ bên ngoài `Kubernetes` bằng `[node-ip]:[node-port]`
+Có thể truy cập tới `service-nodeport` từ bên ngoài `Kubernetes` bằng `[node-ip]:[node-port]`
 
 ```bash
 [k8s@demo]$ curl 192.168.10.11:30888
@@ -91,7 +92,6 @@ NodePort cũng có ClusterIP để kết nối tới các Service khác trong Cl
 ```bash
 [k8s@demo]$ kubectl -n demo get service
 NAME               TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
-frontend-service   ClusterIP      10.233.2.148    <none>        80/TCP           17m
 service-nodeport   NodePort       10.233.51.68    <none>        80:30888/TCP     3m7s
 ```
 
